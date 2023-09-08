@@ -85,7 +85,7 @@ const PlaylistDetail = () => {
               onFocus={() => setIsShowSideA(true)}
             />
           </div>
-          <Link to={`/playlists/public/${id}`} className="absolute right-4 bottom-4 cursor-pointer" target="_blank">
+          <Link to={`/playlists/public/${id}`} className="absolute right-4 bottom-4 cursor-pointer" >
             <ShareIcon />
           </Link>
 
